@@ -1,0 +1,23 @@
+{
+  "name": "blockchain",
+  "version": "1.0.0",
+  "description": "My first blockchain",
+  "main": "server.mjs",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node --env-file=config/config.env server.mjs",
+    "dev": "nodemon --env-file=config/config.env server.mjs"
+  },
+  "author": "Roman",
+  "license": "MIT",
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "uuid": "^9.0.1"
+  },
+  "devDependencies": {
+    "@vitest/ui": "^1.6.0",
+    "nodemon": "^3.1.0",
+    "vitest": "^1.6.0"
+  }
+}
